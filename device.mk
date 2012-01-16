@@ -22,10 +22,7 @@ PRODUCT_COPY_FILES += \
     device/moto/stingray_cdma/prop/chat-ril:system/bin/chat-ril \
     device/moto/stingray_cdma/prop/pppd-ril:system/bin/pppd-ril \
     device/moto/stingray_cdma/prop/tty2ttyd:system/bin/tty2ttyd \
-    device/moto/stingray_cdma/prop/libpppd_plugin-ril.so:system/lib/libpppd_plugin-ril.so \
-    device/moto/stingray_cdma/prop/libreference-ril.so:system/lib/libreference-ril.so \
-    device/moto/stingray_cdma/prop/libril_rds.so:system/lib/libril_rds.so \
-    device/moto/stingray_cdma/prop/libril.so:system/lib/libril.so \
+    device/moto/stingray_cdma/prop/libril.so:system/lib/libril.so
 
 # Overrides
 DEVICE_PACKAGE_OVERLAYS := \
