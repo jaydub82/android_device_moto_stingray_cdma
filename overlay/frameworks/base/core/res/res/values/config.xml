@@ -40,5 +40,5 @@
         <item>/dev/bus/usb/002</item>
     </string-array>
 
-    <bool name="config_hideMobileSignalOnWifi">false</bool>
+    <bool name="config_hideMobileSignalOnWifi">true</bool>
 </resources>
