@@ -41,4 +41,7 @@ PRODUCT_DEVICE := stingray_cdma
 PRODUCT_BRAND := verizon
 PRODUCT_MODEL := Xoom
 PRODUCT_MANUFACTURER := Motorola
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=trygon BUILD_ID=ITL41F BUILD_DISPLAY_ID="EOS IML74K Nightly $(EOS_BUILD_NUMBER)" BUILD_FINGERPRINT="verizon/trygon/stingray:3.2.4/HLK75F/221360:user/release-keys" PRIVATE_BUILD_DESC="trygon-user 3.2.4 HLK75F 221360 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=trygon BUILD_ID=ITL41F \
+    BUILD_DISPLAY_ID="EOS IML74K Nightly $(EOS_BUILD_NUMBER) (`(cd $(ANDROID_BUILD_TOP)/.repo/manifests ; git log -1 --pretty=%h versioned.xml)`)" \
+    BUILD_FINGERPRINT="verizon/trygon/stingray:3.2.4/HLK75F/221360:user/release-keys" \
+    PRIVATE_BUILD_DESC="trygon-user 3.2.4 HLK75F 221360 release-keys"
